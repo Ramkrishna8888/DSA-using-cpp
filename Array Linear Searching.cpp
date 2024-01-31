@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-    bool Search(int arr[],int size,int element)
+    int Search(int arr[],int size,int element)
     {
         for(int i=0;i<size;i++)
         {
             if(arr[i]==element)
             {
-                return 1;
+                return i;
             }
         }
         return 0;
@@ -18,13 +18,11 @@ using namespace std;
         cout<<" Enter the element to search for "<<endl;
          int ele;
          cin>>ele;
-         bool match = Search(arr,10,ele);
-         if(match)
+         int match = Search(arr,10,ele);
+         if(match>0)
          {
-            cout<<"The element is found in the array "<<endl;
+         cout<<"The element found in the array at idx "<<match<<endl;
          }
          else
-         {
-            cout<<"The element is not found in the array"<<endl;
-         }
+         cout<<"The element is not found in array "<<endl; 
     }
