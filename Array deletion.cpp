@@ -1,4 +1,4 @@
-
+// Programme for deleting element from an index
 #include<iostream>
 using namespace std;
 int main()
