@@ -13,6 +13,7 @@ int main()
      }
      cout<<"Enter the index of element to delete"<<endl;
       cin>>index;
+    //Deleting the given element
      for(i=index;i<size;i++)
      {
         ar[i]=ar[i+1];
