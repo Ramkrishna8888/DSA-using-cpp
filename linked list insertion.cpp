@@ -1,4 +1,4 @@
-//Insertion through head
+//Inserting element on head
 #include<bits/stdc++.h>
 using namespace std;
 class Node{
@@ -33,9 +33,6 @@ void print(Node* &head)
   {
     // object creation for the node
      Node* node1 = new Node(10);
-     //cout<<node1 -> data<<endl;
-     //cout<<node1 -> next <<endl;
-
      Node* head = node1;
       print(head);
      insertAtHead(head, 11);
