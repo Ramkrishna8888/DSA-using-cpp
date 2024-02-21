@@ -35,6 +35,7 @@ void print(Node* &head)
      Node* node1 = new Node(10);
      Node* head = node1;
       print(head);
+   // inserting the second element
      insertAtHead(head, 11);
       print(head);
   }
