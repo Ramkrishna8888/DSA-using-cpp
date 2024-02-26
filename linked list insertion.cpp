@@ -1,6 +1,7 @@
 //Inserting element on head
 #include<bits/stdc++.h>
 using namespace std;
+//creation of the node
 class Node{
      public:
      int data;
