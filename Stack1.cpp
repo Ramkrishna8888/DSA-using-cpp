@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-   // Creating an stack
+   // Creating an stack using STL
    stack<int> n;
    
    // push operation for insertion of element
