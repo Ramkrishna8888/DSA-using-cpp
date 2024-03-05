@@ -16,6 +16,9 @@ int main()
 
    // Top operation is for checking the top element in the stack
    cout<<"Top element "<< n.top()<<endl;
+
+   // size operator is for checking the size of the stack
+   cout<<"The size of the stack is"<<n.size()<<endl;
    
    // using empty function for checking weather the stack is empty or not
    if(n.empty())
