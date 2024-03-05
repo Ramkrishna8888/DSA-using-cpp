@@ -1,5 +1,6 @@
 #include<iostream>
 #include<stack>
+// Basic stack operations
 using namespace std;
 int main()
 {
