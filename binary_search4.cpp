@@ -19,7 +19,7 @@ int main()
      int mid;
      while(start <= end)
      {
-        mid= (start + end)/2;
+        mid= start +(end-start)/2; // it's a good practice so that the size of integer can't be more than 2^31-1
         if(start<=end)
         {
         if(n==arr[mid])
