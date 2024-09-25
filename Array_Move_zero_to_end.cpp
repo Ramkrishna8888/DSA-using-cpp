@@ -21,7 +21,7 @@ vector<int> zeroo (vector<int>arr, int n)
 
      for (int k = j; k < n; k++)
      {
-         nums[k+1] = 0;
+         nums[k] = 0;
      }
 
        return nums;
