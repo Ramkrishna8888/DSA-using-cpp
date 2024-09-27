@@ -12,6 +12,9 @@ int main()
     {
         cin>>arr[i];
     }
+
+    // how to use sort stl function
+    //sort(arr,arr+size);
     
     int x;
     cout<<"Enter the key"<<endl;
