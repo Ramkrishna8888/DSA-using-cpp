@@ -1,3 +1,5 @@
+# STL APPROACH IS DURING ANY CODING ROUND WHEN YOU HAVE VERY LIMITED TIME 
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
