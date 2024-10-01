@@ -6,11 +6,11 @@ public:
            {
               if(nums[j]!=nums[i])
               {
-               // i+1 ye hamesha dhyan rakhne ka next wale index prr dalegib agli unique value   
+               // i+1 ye hamesha dhyan rakhne ka next wale index prr dalegi agli unique value   
                 nums[i+1] = nums[j];
                 i++;
               }
            }
-           return (i+1);  // + 1 isliye taki actual count pta chal paye unique element ka 
+           return (i+1);  // + 1 isliye taki actual count pta chal paye unique elemment kaa
     }
 };
