@@ -1,4 +1,4 @@
-# SIMPLE PROGRAM TO UNDERSTAND THE SET DATA STRUCTURE
+// SIMPLE PROGRAM TO UNDERSTAND THE SET DATA STRUCTURE
 #include<iostream>
  #include<set>
  using namespace std;
