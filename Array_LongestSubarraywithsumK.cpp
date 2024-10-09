@@ -2,23 +2,20 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
+
 int longestSubarrayWithSumK(vector<int> a, long long k) { 
-     int maximum = 0;
-     int sum = 0;
-     for(int i =0; i<a.size(); i++)
-     {
-         for(int j =i; j<a.size(); j++)
-         {
-             sum = sum + a[j];
-           if(sum==k)
-           {
-            int length = j-i+1;
-             maximum = max(maximum,length);
-            return maximum+1;
-           }
-         }
-     }
-      return maximum;
+    int maximum = 0;
+    for(int i = 0; i < a.size(); i++) {
+        int sum = 0;  // Reset sum for each starting index i
+        for(int j = i; j < a.size(); j++) {
+            sum = sum + a[j];  // Add the current element to sum
+            if(sum == k) {
+                int length = j - i + 1;  // Calculate the length of the current subarray
+                maximum = max(maximum, length);  // Update maximum if needed
+            }
+        }
+    }
+    return maximum;
 }
 
 int main() {
