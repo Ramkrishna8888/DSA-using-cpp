@@ -36,3 +36,5 @@ int main() {
 
     return 0;
 }
+
+// BUT IT'S NOT THE OPTIMIZED APPROACH WE HAVE TO USE UNORDERED MAP FOR THAT.
