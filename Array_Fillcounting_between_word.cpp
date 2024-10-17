@@ -1,10 +1,10 @@
-# A NICE QUESTION FOR BUILDING THE LOGIC OF CHARACTER ARRAY
+// A NICE QUESTION FOR BUILDING THE LOGIC OF CHARACTER ARRAY
 
 //input: important
 //output: i1234567t
 
 //input: Bilkulchup
-//output: B12345678p
+//output: B12345678p 
 
 #include<iostream>
 #include<vector>
